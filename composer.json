@@ -6,9 +6,8 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
-        "php": ">=8.0.2"
-    },
-    "require-dev": {
+        "php": ">=8.0.2",
+        "symfony/framework-bundle": "^6.0"
     },
     "config": {
         "optimize-autoloader": true,
@@ -19,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Ferror\\RecipesBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "Ferror\\RecipesBundle\\": "tests/"
         }
     }
 }
